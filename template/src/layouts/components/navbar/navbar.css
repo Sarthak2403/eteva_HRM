@@ -1,0 +1,36 @@
+
+@media only screen and (max-width: 600px) {
+    .Display_for_mobile{
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        background-color: rgb(20, 175, 15);
+        display: flex;
+        flex-direction: row;
+        
+     }
+     .navbar-nav{
+        display: flex;
+        flex-direction: row !important;
+        width: 100%;
+        justify-content: space-around;
+        text-align-last: center;  
+     }
+     .Display_for_laptop{
+         display: none;
+     }
+
+     .justify-content-end{
+        padding-top: 2px;
+     }
+}
+
+@media only screen and (min-width: 992px) {
+    .Display_for_laptop{
+        display: block;
+    }
+    .Display_for_mobile{
+        display: none;
+    }
+
+}
